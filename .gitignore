@@ -1,0 +1,47 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Fichiers de Jenkins
+/secrets/
+/*.xml
+/.jenkins/
+/var/
+/root/.jenkins/
+
+# Fichiers temporaires
+*.tmp
+*.swp
+
+# Clés SSH ou de sécurité (à ne jamais versionner)
+*.pem
+*.key
+*.crt
+
+# Dossiers Vagrant
+.vagrant/
+
+# Fichiers de machines virtuelles (VirtualBox, etc.)
+*.box
+
+# Fichiers de configuration utilisateur
+*.bak
+*.old
+*.orig
+
+# Fichiers de build ou de déploiement
+node_modules/
+dist/
+build/
+
+# Python cache (si tu ajoutes du code Python)
+__pycache__/
+*.py[cod]
+
+# Fichiers système Windows
+desktop.ini
+ehthumbs.db
+Icon?
